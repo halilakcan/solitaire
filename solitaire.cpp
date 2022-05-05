@@ -8,9 +8,9 @@ vector<int> shuffle()
     int a;
     vector<int> b;
 srand (time(0));
-for(int i=0;i<53;i++) 
+for(int i=0;i<52;i++) 
 {  
-    a=rand() %53; 
+    a=rand() %52; 
     b.push_back(a);
     if(i>0) 
     {
@@ -48,7 +48,10 @@ order=shuffle();
    cout << endl;
        for(auto it = begin(deck); it != end(deck); ++it) {cout << *it << " ";} 
    cout << endl;
+     for (int i=0;i<52;i++) playdeck.push_back(deck[order[i]]);
 
-cout << "The length of the deck is: " << karo.size();
+     for(auto it = begin(playdeck); it != end(playdeck); ++it) {cout << *it << " ";} 
+   cout << endl;
+cout << "The length of the deck is: " << deck.size();
 
 }
