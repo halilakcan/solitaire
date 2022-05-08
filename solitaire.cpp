@@ -65,13 +65,13 @@ for(;j<52;j++) F.push_back(order[j]);
  k=0;
    for(i=0;i<7;i++) 
    {
-    if(k<G.size()) cout <<G[i]<<"\t"; else cout <<" \t";
-    if(k<H.size()) cout <<H[i]<<"\t"; else cout <<" \t";
-    if(k<I.size()) cout <<I[i]<<"\t"; else cout <<" \t";
-    if(k<J.size()) cout <<J[i]<<"\t"; else cout <<" \t";
-    if(k<K.size()) cout <<K[i]<<"\t"; else cout <<" \t";
-    if(k<L.size()) cout <<L[i]<<"\t"; else cout <<" \t";
-    if(k<M.size()) cout <<M[i]<<"\t"; else cout <<" \t";
+    if(k<G.size()) cout <<playdeck[G[i]]<<"\t"; else cout <<" \t";
+    if(k<H.size()) cout <<playdeck[H[i]]<<"\t"; else cout <<" \t";
+    if(k<I.size()) cout <<playdeck[I[i]]<<"\t"; else cout <<" \t";
+    if(k<J.size()) cout <<playdeck[J[i]]<<"\t"; else cout <<" \t";
+    if(k<K.size()) cout <<playdeck[K[i]]<<"\t"; else cout <<" \t";
+    if(k<L.size()) cout <<playdeck[L[i]]<<"\t"; else cout <<" \t";
+    if(k<M.size()) cout <<playdeck[M[i]]<<"\t"; else cout <<" \t";
     k++;
     cout <<endl;
    }
